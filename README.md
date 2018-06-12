@@ -1,2 +1,2 @@
 # lovanda
-dating service
+dating service for people
