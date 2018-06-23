@@ -11,7 +11,7 @@ Released   : 20120712
 
 Modified by VitalySwipe
 -->
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 	<head>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<meta name="description" content="" />
@@ -41,21 +41,19 @@ Modified by VitalySwipe
 		</script>
 	</head>
 	<body>
+		<div id="menu">
+			<ul>
+				<li #id="logo" class="first active"><a href="<?php print HTTP; ?>">ОЛОЛОША</span> <span class="cms">TEAM</span></a></li>
+				<li class="first active"><a href="<?php print HTTP; ?>">Home</a></li>
+				<li><a href="<?php print HTTP; ?>services">Dating</a></li>
+				<li><a href="<?php print HTTP; ?>portfolio">Messages</a></li>
+				<li><a href="<?php print HTTP; ?>contacts">About</a></li>
+				<li><a href="<?php print HTTP; ?>contacts">Contacts</a></li>
+				<li class="last"><a href="<?php print HTTP; ?>contacts">Login / Sign Up</a></li>
+			</ul>
+			<br class="clearfix" />
+		</div>
 		<div id="wrapper">
-			<div id="header">
-				<div id="logo">
-					<a href="<?php print HTTP; ?>">ОЛОЛОША</span> <span class="cms">TEAM</span></a>
-				</div>
-				<div id="menu">
-					<ul>
-						<li class="first active"><a href="<?php print HTTP; ?>">Главная</a></li>
-						<li><a href="<?php print HTTP; ?>services">Услуги</a></li>
-						<li><a href="<?php print HTTP; ?>portfolio">Портфолио</a></li>
-						<li class="last"><a href="<?php print HTTP; ?>contacts">Контакты</a></li>
-					</ul>
-					<br class="clearfix" />
-				</div>
-			</div>
 			<div id="page">
 				<div id="content">
 					<div class="box">
@@ -72,43 +70,7 @@ Modified by VitalySwipe
 				</div>
 				<br class="clearfix" />
 			</div>
-			<div id="page-bottom">
-				<div id="page-bottom-sidebar">
-					<h3>Наши контакты</h3>
-					<ul class="list">
-						<li class="first">icq: 199199538</li>
-						<li>skypeid: vitalyswipe</li>
-						<li class="last">email: vitalyswipe@gmail.com</li>
-					</ul>
-				</div>
-				<div id="page-bottom-content">
-					<h3>О Компании</h3>
-					<p>
-Вот дом.
-Который построил Джек.
-
-А это пшеница.
-Которая в тёмном чулане хранится
-В доме,
-Который построил Джек.
-
-А это весёлая птица-синица,
-Которая ловко ворует пшеницу,
-Которая в тёмном чулане хранится
-В доме,
-Который построил Джек.
-
-Вот кот,
-Который пугает и ловит синицу,
-Которая ловко ворует пшеницу,
-Которая в тёмном чулане хранится
-В доме,
-Который построил Джек.
-					</p>
-				</div>
-				<br class="clearfix" />
-			</div>
-		</div>
+			
 		<div id="footer">
 			<a href="<?php print HTTP; ?>">ОЛОЛОША TEAM</a> &copy; 2012</a>
 		</div>
