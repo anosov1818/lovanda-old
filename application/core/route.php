@@ -14,6 +14,13 @@ class Route {
 		
 		$routes = explode('/', $_SERVER['REQUEST_URI']);
 
+        // config.php
+        define("ROOT", __DIR__ ."/");
+        define("HTTP", ($_SERVER["SERVER_NAME"] == "localhost")
+            ? "http://localhost/lovanda/"
+            : "http://https://loveanda.000webhostapp.com//"
+        );
+
 		// получаем имя контроллера
 		if ( !empty($routes[2]) ) {
 			$controller_name = $routes[2];
