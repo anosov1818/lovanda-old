@@ -32,7 +32,28 @@ body {
 }
 
 body,input {
-	font-family: Kreon, serif;
+	font-family: 'Open Sans', sans-serif;
+	font-family: 'Montserrat', sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Raleway', sans-serif;
+	font-family: 'Nunito', sans-serif;
+	font-family: 'Oxygen', sans-serif;
+	font-family: 'Work Sans', sans-serif;
+	font-family: 'Quicksand', sans-serif;
+	font-family: 'Cabin', sans-serif;
+	font-family: 'Hind', sans-serif;
+	font-family: 'Rubik', sans-serif;
+	font-family: 'Karla', sans-serif;
+	font-family: 'Libre Franklin', sans-serif;
+	font-family: 'Varela Round', sans-serif;
+	font-family: 'Nunito Sans', sans-serif;
+	font-family: 'Hind Siliguri', sans-serif;
+	font-family: 'Comfortaa', cursive;
+	font-family: 'Didact Gothic', sans-serif;
+	font-family: 'Khula', sans-serif;
+	font-family: 'Sarala', sans-serif;
+	font-family: 'Molengo', sans-serif;
+	font-family: 'Nobile', sans-serif;
 }
 
 br.clearfix {
