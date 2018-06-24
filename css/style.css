@@ -1,15 +1,4 @@
-﻿/*
-Design by Free CSS Templates
-http://www.freecsstemplates.org
-Released for free under a Creative Commons Attribution 3.0 License
-
-Name       : Accumen
-Description: A two-column, fixed-width design with dark color scheme.
-Version    : 1.0
-Released   : 20120712
-*/
-
-* {
+﻿* {
 	margin: 0;
 	padding: 0;
 }
@@ -113,14 +102,15 @@ a {
 }
 
 #menu .last{
-	line-height: inherit;
+	padding-top: 0;
+	padding-bottom: 0;
 	float: right;
 }
 
 #wrapper {
 	width: 978px;
 	position: relative;
-	background: #FFF;
+	background: #fefefe;
 	margin: 15px auto;
 	box-shadow: 10px 100px 150px 0px rgba(0,0,0,0.15);
 	border: solid 1px #f3f3f3;
