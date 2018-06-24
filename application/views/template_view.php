@@ -20,8 +20,8 @@ Modified by VitalySwipe
 		<link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css" />
 		<link href="http://fonts.googleapis.com/css?family=Kreon" rel="stylesheet" type="text/css" />
 		<link rel="stylesheet" type="text/css" href="<?php print HTTP; ?>css/style.css" />
-        <link href="https://fonts.googleapis.com/css?family=Cabin|Comfortaa|Didact+Gothic|Hind|Hind+Siliguri|Karla|Khula|Libre+Franklin|Molengo|Montserrat|Nobile|Nunito|Nunito+Sans|Open+Sans|Oxygen|Quicksand|Raleway|Rubik|Sarala|Source+Sans+Pro|Varela+Round|Work+Sans" rel="stylesheet">
-		<script src="<?php print HTTP; ?>js/jquery-1.6.2.js" type="text/javascript"></script>
+        <link href="https://fonts.googleapis.com/css?family=Comfortaa|Oxygen|Raleway|Sarala|Work+Sans" rel="stylesheet">
+        <script src="<?php print HTTP; ?>js/jquery-1.6.2.js" type="text/javascript"></script>
 		<script type="text/javascript">
 		// return a random integer between 0 and number
 		function random(number) {
