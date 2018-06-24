@@ -16,34 +16,17 @@ Modified by VitalySwipe
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
-		<title>ОЛОЛОША TEAM</title>
+		<title>Lovanda | Dating Service</title>
 		<link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css" />
 		<link href="http://fonts.googleapis.com/css?family=Kreon" rel="stylesheet" type="text/css" />
 		<link rel="stylesheet" type="text/css" href="<?php print HTTP; ?>css/style.css" />
         <link href="https://fonts.googleapis.com/css?family=Comfortaa|Oxygen|Raleway|Sarala|Work+Sans" rel="stylesheet">
-        <script src="<?php print HTTP; ?>js/jquery-1.6.2.js" type="text/javascript"></script>
-		<script type="text/javascript">
-		// return a random integer between 0 and number
-		function random(number) {
-			
-			return Math.floor( Math.random()*(number+1) );
-		};
-		
-		// show random quote
-		$(document).ready(function() { 
-
-			var quotes = $('.quote');
-			quotes.hide();
-			
-			var qlen = quotes.length; //document.write( random(qlen-1) );
-			$( '.quote:eq(' + random(qlen-1) + ')' ).show(); //tag:eq(1)
-		});
-		</script>
+        <script src="<?php print HTTP; ?>js/jquery-1.6.2.js" type="text/javascript"></script
 	</head>
 	<body>
 		<div id="menu">
 			<ul>
-				<li #id="logo" class="first active"><a href="<?php print HTTP; ?>">ОЛОЛОША</span> <span class="cms">TEAM</span></a></li>
+				<li #id="logo" class="first active"><a href="<?php print HTTP; ?>">Lovanda</a></li>
 				<li class="first active"><a href="<?php print HTTP; ?>">Home</a></li>
 				<li><a href="<?php print HTTP; ?>services">Dating</a></li>
 				<li><a href="<?php print HTTP; ?>portfolio">Messages</a></li>
@@ -70,9 +53,8 @@ Modified by VitalySwipe
 				</div>
 				<br class="clearfix" />
 			</div>
-			
 		<div id="footer">
-			<a href="<?php print HTTP; ?>">ОЛОЛОША TEAM</a> &copy; 2012</a>
+			<a href="<?php print HTTP; ?>">Lovanda</a> &copy; 2018</a>
 		</div>
 	</body>
 </html>
