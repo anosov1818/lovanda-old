@@ -1,10 +1,8 @@
 <?php
 
-class Model_Portfolio extends Model
-{
+class Model_Message extends Model {
 	
-	public function get_data()
-	{	
+	public function get_data() {
 		
 		// Здесь мы просто сэмулируем реальные данные.
 		
@@ -57,8 +55,6 @@ class Model_Portfolio extends Model
 				'Site' => 'http://AbsurdGames.ru',
 				'Description' => 'Страничка российской команды разработчиков независимых игр с необычной физикой и сюрреалистической графикой.'
 			),
-
 		);
 	}
-
 }
