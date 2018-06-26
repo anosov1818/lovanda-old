@@ -1,7 +1,7 @@
 <div id="welcome">
 <h1>Welcome to Lovanda</h1>
 <p>Lovanda is a revolutionary application to find a partner online for free</p>
-<button><a href="<?php print HTTP; ?>services">Sign Up</a></button>
+<button><a href="<?php print HTTP; ?>services">Sign up</a></button>
 </div>
 
 <div class="holder">
