@@ -26,9 +26,9 @@ a:hover {
 
 body {
 	line-height: 1.75em;
-	background: #fff url('../images/00bd.png');
 	font-size: 11.5pt;
-	color: #353535;
+	background-image: url("Dieser PC/Desktop/Lovanda Design/lovandaBG.jpg");
+	background-size: cover;
 }
 
 body,input {
@@ -44,11 +44,27 @@ br.clearfix {
 }
 
 h1,h2,h3,h4 {
-	text-transform: uppercase;
-	font-weight: normal;
 	font-family: 'Comfortaa', cursive;
 	color: #353535;
 	margin-bottom: 1em;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.signup{
+	border-radius: 8px; 
+	width: 80px;
+	height: 35px;
+	background: #cb2d3e; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #cb2d3e, #ef473a); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #cb2d3e, #ef473a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	font-size: 11.5pt;
+	font-weight: bold;
+	border: none;
+}
+
+.signup a{
+	color:white;
 }
 
 h1 {
