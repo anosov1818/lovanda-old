@@ -125,9 +125,13 @@ a {
 	border-radius: 10px;
 }
 
+#page {
+	padding:20px;
+}
+
 #welcome{
 	padding: 40px 30px;
-	text-align: center;
+	text-align:center;
 }
 
 #welcome button{
@@ -147,15 +151,10 @@ a {
 	color:white;
 }
 
-.holder{
-	padding: 20px 15px;
-}
-
 div .options{
 	float: left;
 	width: 30%;
 	margin: 1.66%;
-	padding-bottom: 30%;
 	display: inline-block;
 }
 
