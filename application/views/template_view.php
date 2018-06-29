@@ -36,6 +36,6 @@
 		<div id="footer">
 			<a href="<?php print HTTP; ?>">Lovanda</a> &copy; 2018
 		</div>
-        <script src="<?php print HTTP; ?>js/jquery-1.6.2.js" type="text/javascript"></script>
+        <script src="<?php print HTTP; ?>js/main.js" type="text/javascript"></script>
 	</body>
 </html>
