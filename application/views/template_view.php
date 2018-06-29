@@ -7,7 +7,7 @@
 		<title>Lovanda | Dating Service</title>
 		<link rel="stylesheet" type="text/css" href="<?php print HTTP; ?>css/style.css" />
         <link href="https://fonts.googleapis.com/css?family=Comfortaa|Oxygen|Raleway|Sarala|Work+Sans" rel="stylesheet">
-        <script src="<?php print HTTP; ?>js/jquery-1.6.2.js" type="text/javascript"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	</head>
 	<body>
 		<div id="menu">
@@ -36,5 +36,6 @@
 		<div id="footer">
 			<a href="<?php print HTTP; ?>">Lovanda</a> &copy; 2018
 		</div>
+        <script src="<?php print HTTP; ?>js/jquery-1.6.2.js" type="text/javascript"></script>
 	</body>
 </html>

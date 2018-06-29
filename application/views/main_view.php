@@ -1,17 +1,20 @@
 <div id="welcome">
-<h1>Welcome to Lovanda</h1>
-<p>Lovanda is a revolutionary application to find a partner online for free</p>
-<button><a href="<?php print HTTP; ?>services">Sign up</a></button>
+    <h1>Welcome to Lovanda</h1>
+    <p>Lovanda is a revolutionary application to find a partner online for free</p>
+    <button>
+        <a href="<?php print HTTP; ?>services">Sign up</a>
+    </button>
 </div>
 
-<div class="holder">
+<!-- TODO sign up form right here -->
+
 <div class="options">
     <h3>Manage Invoices Online</h3>
-    <p id="firstp">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-        Eaque inventore saepe et eligendi reiciendis minima cumque 
-        necessitatibus sapiente mollitia accusantium ipsum, nulla 
+    <p id="firstp">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Eaque inventore saepe et eligendi reiciendis minima cumque
+        necessitatibus sapiente mollitia accusantium ipsum, nulla
         repudiandae dolore voluptatibus cupiditate perspiciatis quae
-         debitis nemo.
+        debitis nemo.
     </p>
 </div>
 
@@ -33,5 +36,4 @@
         repudiandae dolore voluptatibus cupiditate perspiciatis quae
          debitis nemo.
     </p>
-</div>
 </div>
