@@ -3,6 +3,10 @@
 class Controller_Main extends Controller {
 
 	function action_index() {
+		$this->view->generate('main_view.php', 'template_view.php');
+	}
+
+	function form_index(){
 	    $name = $_POST['name'];
         $username = $_POST['username'];
         $email = $_POST['email'];
@@ -20,7 +24,5 @@ class Controller_Main extends Controller {
         //$user->name = $name;
         //$user->email = $email;
 
-
-		$this->view->generate('main_view.php', 'template_view.php');
-	}
+    }
 }
