@@ -6,7 +6,7 @@ class Controller_Main extends Controller {
 		$this->view->generate('main_view.php', 'template_view.php');
 	}
 
-	function form_index(){
+	function form_index() {
 	    $name = $_POST['name'];
         $username = $_POST['username'];
         $email = $_POST['email'];
