@@ -25,8 +25,8 @@ body, input {
 	/*font-family: 'Raleway', sans-serif;
 	/*font-family: 'Oxygen', sans-serif;
 	/*font-family: 'Work Sans', sans-serif;*/
-	font-family: 'Comfortaa', cursive;
-	/*font-family: 'Sarala', sans-serif;*/
+	/*font-family: 'Comfortaa', cursive;*/
+	font-family: 'Sarala', sans-serif;
 }
 
 input:focus, button:focus, input:active, button:active{
