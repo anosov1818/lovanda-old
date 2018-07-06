@@ -9,8 +9,8 @@
         <div class="row">
             <div class="col">
                 <div class="form-group">
-                    <label for="gender">I Am</label>
-                    <select name="gender" class="form-control" placeholder="">
+                    <label for="my-gender">I Am</label>
+                    <select name="my-gender" class="form-control" placeholder="">
                         <option value="male">Man</option>
                         <option value="female">Woman</option>
                         <option value="wtf">Other</option>
@@ -19,8 +19,8 @@
             </div>
             <div class="col">
                 <div class="form-group">
-                    <label for="gender">Looking For</label>
-                    <select name="gender" class="form-control"placeholder="">
+                    <label for="search-for-gender">Looking For</label>
+                    <select name="search-for-gender" class="form-control"placeholder="">
                         <option value="male">Man</option>
                         <option value="female">Woman</option>
                         <option value="wtf">Other</option>
