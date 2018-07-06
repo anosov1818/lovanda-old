@@ -12,7 +12,6 @@
         <script src="<?php print HTTP; ?>js/bootstrap.js"></script>
 	</head>
 	<body>
-
 		<!-- TODO:FIX PHP LINKS -->
 
 		<!-- <div id="menu">
@@ -27,44 +26,39 @@
 			</ul>
 			<br class="clearfix" />
 		</div> -->
-
-		<nav class="navbar navbar-expand-lg navbar-light bg-light">
-		  <a class="navbar-brand" href="#">Lovanda</a>
-		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-		    <span class="navbar-toggler-icon"></span>
-		  </button>
-		  <div class="collapse navbar-collapse" id="navbarText">
-		    <ul class="navbar-nav mr-auto">
-		      <li class="nav-item active">
-		        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-		      </li>
-		      <li class="nav-item">
-		        <a class="nav-link" href="#">Dating</a>
-		      </li>
-		      <li class="nav-item">
-		        <a class="nav-link" href="#">Messages</a>
-		      </li>
-					<li class="nav-item">
-		        <a class="nav-link" href="#">About</a>
-		      </li>
-					<li class="nav-item">
-		        <a class="nav-link" href="#">Contacts</a>
-		      </li>
-		    </ul>
-			  <span class="navbar-text">
-		      Login/SignUp
-		    </span>
-		  </div>
-		</nav>
-
-
-
-
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="<?php print HTTP; ?>">Lovanda</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="<?php print HTTP; ?>">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="<?php print HTTP; ?>dating">Dating</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="<?php print HTTP; ?>message">Messages</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="<?php print HTTP; ?>about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="<?php print HTTP; ?>contacts">Contacts</a>
+                    </li>
+                </ul>
+                <span class="navbar-text">
+                    <a href="<?php print HTTP; ?>login">Login/SignUp</a>
+                </span>
+            </div>
+        </nav>
 		<div id="wrapper">
 			<div id="page">
 				<div id="content">
 					<div class="box">
-						<?php include 'application/views/'.$content_view; ?>
+						<?php include 'application/views/' . $content_view; ?>
 					</div>
 					<br class="clearfix" />
 				</div>
