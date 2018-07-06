@@ -5,7 +5,7 @@
 </div>
 
 <div id="form">
-    <form action="" class="main-form needs-validation" novalidate>
+    <form action="<?php print HTTP; ?>registration" method="post" class="main-form needs-validation" novalidate>
         <div class="row">
             <div class="col">
                 <div class="form-group">
@@ -54,7 +54,7 @@
                 </label>
             </div>
         </div>
-        <button class="signup-button">Submit</button>
+        <input type="submit" value="Submit">
     </form>
 </div>
 

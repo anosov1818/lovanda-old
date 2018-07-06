@@ -7,7 +7,7 @@ class Controller_Login extends Controller {
 
 		if(isset($_POST['login']) && isset($_POST['password'])) {
 			$login = $_POST['login'];
-			$password =$_POST['password'];
+			$password = $_POST['password'];
 			
 			/*
 			Производим аутентификацию, сравнивая полученные значения со значениями прописанными в коде.
