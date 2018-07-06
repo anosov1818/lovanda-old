@@ -42,6 +42,7 @@
             <label for="password">Password</label>
             <input type="password" name="password" id="password" class="form-control">
         </div>
+        <div id="have-account"><a href="#">Have Account?</a></div>
         <div id="terms" class="form-group">
             <div class="form-check">
                 <input type="checkbox" id="accept-terms" class="form-check-input">

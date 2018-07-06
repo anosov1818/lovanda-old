@@ -72,39 +72,11 @@ br.clearfix {
 	margin-top: 15px;
 }
 
-
-#menu {
-	line-height: 57px;
-	height: 57px;
-	font-family: "Open Sans", sans-serif;
-	background-color:  #271E1D;
+#have-account{
+	text-align: center;
+	margin: 10px 0;
 }
 
-#menu a {
-	color: #fefefe;
-	font-size: 1.2em;
-}
-
-#menu a:hover {
-	text-decoration: none;
-}
-
-#menu ul {
-	padding: 0 20px 0 20px;
-	list-style: none;
-}
-
-#menu ul li {
-	display: inline;
-	padding: 10px 10px 10px 10px;
-	margin: 0 8px 0 8px;
-}
-
-#menu .last{
-	padding-top: 0;
-	padding-bottom: 0;
-	float: right;
-}
 
 #wrapper {
 	width: 978px;
