@@ -53,8 +53,8 @@
                     <a href="#">privacy policy</a>.
                 </label>
             </div>
-            <button class="signup-button">Submit</button>
         </div>
+        <button class="signup-button">Submit</button>
     </form>
 </div>
 
