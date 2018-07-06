@@ -11,7 +11,10 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	</head>
 	<body>
-		<div id="menu">
+
+		<!-- TODO:FIX PHP LINKS -->
+
+		<!-- <div id="menu">
 			<ul>
 				<li id="logo" class="first active"><a href="<?php print HTTP; ?>">Lovanda</a></li>
 				<li class="first active"><a href="<?php print HTTP; ?>">Home</a></li>
@@ -22,7 +25,40 @@
 				<li class="last"><a href="<?php print HTTP; ?>login">Login / Sign Up</a></li>
 			</ul>
 			<br class="clearfix" />
-		</div>
+		</div> -->
+
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		  <a class="navbar-brand" href="#">Lovanda</a>
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
+		  </button>
+		  <div class="collapse navbar-collapse" id="navbarText">
+		    <ul class="navbar-nav mr-auto">
+		      <li class="nav-item active">
+		        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="#">Dating</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="#">Messages</a>
+		      </li>
+					<li class="nav-item">
+		        <a class="nav-link" href="#">About</a>
+		      </li>
+					<li class="nav-item">
+		        <a class="nav-link" href="#">Contacts</a>
+		      </li>
+		    </ul>
+			  <span class="navbar-text">
+		      Login/SignUp
+		    </span>
+		  </div>
+		</nav>
+
+
+
+
 		<div id="wrapper">
 			<div id="page">
 				<div id="content">
