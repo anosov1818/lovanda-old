@@ -53,14 +53,11 @@
                     <a href="#">privacy policy</a>.
                 </label>
             </div>
-<<<<<<< HEAD
-
-=======
->>>>>>> 0afee35c261089147aa6189ecd10c49bb4d41e6f
         </div>
-        <button class="signup-button">Submit</button>
+          <div class="signup-wraper">
+              <button class="signup-button">Submit</button>
+          </div>
     </form>
-      <button class="signup-button">Submit</button>
 </div>
 
 <div class="options">
