@@ -45,42 +45,34 @@ h1,h2,h3,h4 {
 	text-transform: uppercase;
 }
 
-.signup{
-	border-radius: 8px; 
-	width: 80px;
-	height: 35px;
+
+.main-form{
+	width:450px;
+	margin: auto;
+}
+
+#form{
+	display:none;
+}
+
+.btn{
+	margin: 10px;
+	border-radius: 50px;
+	border: none;
 	background: #cb2d3e; /* fallback for old browsers */
 	background: -webkit-linear-gradient(to right, #cb2d3e, #ef473a); /* Chrome 10-25, Safari 5.1-6 */
 	background: linear-gradient(to right, #cb2d3e, #ef473a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-	font-size: 11.5pt;
-	font-weight: bold;
-	border: none;
+
 }
 
-.signup a{
-	color:white;
+#terms{
+	text-align: center;
 }
 
-h1 {
-	font-size: 1.75em;
+#accept-terms{
+	margin-top: 15px;
 }
 
-h2  {
-	font-size: 1.5em;
-}
-
-h3 {
-	font-size: 1.25em;
-}
-
-ul {
-	margin-bottom: 1.5em;
-}
-
-
-a {
-	color: #353535;
-}
 
 #menu {
 	line-height: 57px;
@@ -147,9 +139,13 @@ a {
 	border:none;
 }
 
-#welcome button a{
+#welcome button {
 	border-radius: 20px;
 	color:white;
+}
+
+#signup-form-button:hover{
+	cursor: pointer;
 }
 
 div .options{
