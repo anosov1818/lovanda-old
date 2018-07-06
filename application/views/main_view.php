@@ -1,12 +1,10 @@
 <div id="welcome">
     <h1>Welcome to Lovanda</h1>
     <p>Lovanda is a revolutionary application to find a partner online for free</p>
-    <button id="dropit">
-        <a href="<?php print HTTP; ?>services">Sign up</a>
-    </button>
+    <button id="signup-form-button"> Sign up </button>
 </div>
 
-<div id="FORM">
+<div id="form">
  <form action="" class="main-form needs-validation" novalidate>
         <div class="row">
             <div class="col">
@@ -88,3 +86,5 @@
          debitis nemo.
     </p>
 </div>
+
+<!-- cd C:\xampp\htdocs\lovanda -->
