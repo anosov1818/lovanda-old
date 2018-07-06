@@ -5,8 +5,13 @@
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
 		<title>Lovanda | Dating Service</title>
+<<<<<<< HEAD
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="<?php print HTTP; ?>css/style.css" />
+=======
+		<link rel="stylesheet" type="text/css" href="<?php print HTTP; ?>css/style.css" />
+		<link rel="stylesheet" type="text/css" href="<?php print HTTP; ?>css/bootstrap.min.css" />
+>>>>>>> 5443b31e25d245561d1d0ba6ea84b8e39119958d
         <link href="https://fonts.googleapis.com/css?family=Comfortaa|Oxygen|Raleway|Sarala|Work+Sans" rel="stylesheet">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	</head>

@@ -16,9 +16,8 @@ a:hover {
 body {
 	line-height: 1.75em;
 	font-size: 11.5pt;
-	background-image: url("../images/Zeichenfläche\ 1.png");
-	background-size: cover;
-	background: opac
+	background-image: url("../images/lovandaBG.jpg");
+	background-size: fixed;
 }
 
 body, input {
@@ -53,16 +52,20 @@ h1,h2,h3,h4 {
 
 #form{
 	display:none;
+	background-image: url("../images/lovandaBG.jpg");
+	padding-top: 40px;
+	margin: 0 200px 0 200px;
+	border-radius: 5%;
+	
 }
 
 .btn{
 	margin: 10px;
 	border-radius: 50px;
 	border: none;
-	background: #cb2d3e; /* fallback for old browsers */
-	background: -webkit-linear-gradient(to right, #cb2d3e, #ef473a); /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to right, #cb2d3e, #ef473a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+	background: #bf8900; /* fallback for old browsers */
+  	background: -webkit-linear-gradient(to right,  #bf8900, #ffb700, #7f5b00); 
+  	background: linear-gradient(to right, #bf8900, #ffb700, #7f5b00);
 }
 
 #terms{
@@ -123,13 +126,13 @@ h1,h2,h3,h4 {
 }
 
 #welcome{
-	padding: 40px 30px;
+	padding: 40px 30px 0;
 	text-align:center;
 }
 
-#welcome button{
+.signup-button{
 	padding: 10px 40px;
-	margin: 40px 0 0;
+	margin: 40px 0 40px;
 	background-color: #D02C2A;
 	background: #a72424; /* fallback for old browsers */
 	background: -webkit-linear-gradient(to right, #a72424, #ef473a); /* Chrome 10-25, Safari 5.1-6 */
@@ -142,9 +145,10 @@ h1,h2,h3,h4 {
 #welcome button {
 	border-radius: 20px;
 	color:white;
+	transition: .3s;
 }
 
-#signup-form-button:hover{
+#welcome button:hover{
 	cursor: pointer;
 }
 
