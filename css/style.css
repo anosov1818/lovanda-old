@@ -127,10 +127,10 @@ br.clearfix {
 }
 
 div .options{
-	float: left;
+	/* float: left;
 	width: 30%;
 	margin: 1.66%;
-	display: inline-block;
+	display: inline-block; */
 }
 
 #footer {

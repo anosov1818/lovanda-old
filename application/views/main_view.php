@@ -65,7 +65,8 @@
     </form>
 </div>
 
-<div class="options">
+<div class="row">
+<div class="options col-lg-4 my-col">
     <h3>Manage Invoices Online</h3>
     <p id="firstp">Lorem ipsum dolor sit amet consectetur adipisicing elit.
         Eaque inventore saepe et eligendi reiciendis minima cumque
@@ -75,7 +76,7 @@
     </p>
 </div>
 
-<div class="options">
+<div class="options col-lg-4 my-col">
     <h3>Dashboards and Reports</h3>
     <p id="secondp">Lorem ipsum dolor sit amet consectetur adipisicing elit.
         Eaque inventore saepe et eligendi reiciendis minima cumque
@@ -85,7 +86,7 @@
     </p>
 </div>
 
-<div class="options">
+<div class="options col-lg-4 my-col">
     <h3>Invite Share and Collaborate</h3>
     <p id="thirdp">Lorem ipsum dolor sit amet consectetur adipisicing elit.
         Eaque inventore saepe et eligendi reiciendis minima cumque
@@ -93,6 +94,7 @@
         repudiandae dolore voluptatibus cupiditate perspiciatis quae
          debitis nemo.
     </p>
+</div>
 </div>
 
 <!-- cd C:\xampp\htdocs\lovanda -->
