@@ -44,7 +44,7 @@
         </div>
         <div class="form-group">
             <label for="password">Confirm Password</label>
-            <input type="password" name="password" id="password" class="form-control">
+            <input type="password" name="password" id="confirm-password" class="form-control">
         </div>
         <div id="have-account"><a href="#">Have Account?</a></div>
         <div id="terms" class="form-group">
