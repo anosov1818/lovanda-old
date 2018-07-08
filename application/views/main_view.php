@@ -4,10 +4,10 @@
     <button class="signup-button" id="signup-form-button"> Sign up </button>
 </div>
 
-<div id="form">
-    <form action="" class="main-form needs-validation" novalidate>
-        <div class="row">
-            <div class="col">
+<div id="form" class="row my-row">
+    <form action="<?php print HTTP; ?>registration" method="post" class="main-form needs-validation" novalidate>
+        <div class="row my-row">
+            <div class="col-md-6 col-sm-6 col-xs-12 my-col">
                 <div class="form-group">
                     <label for="gender">I Am</label>
                     <select name="gender" class="form-control" placeholder="">
@@ -17,7 +17,7 @@
                     </select>
                 </div>
             </div>
-            <div class="col">
+            <div class="col-md-6 col-sm-6 col-xs-12 my-col">
                 <div class="form-group">
                     <label for="gender">Looking For</label>
                     <select name="gender" class="form-control"placeholder="">
@@ -42,6 +42,10 @@
             <label for="password">Password</label>
             <input type="password" name="password" id="password" class="form-control">
         </div>
+        <div class="form-group">
+            <label for="password">Confirm Password</label>
+            <input type="password" name="password" id="password" class="form-control">
+        </div>
         <div id="have-account"><a href="#">Have Account?</a></div>
         <div id="terms" class="form-group">
             <div class="form-check">
@@ -55,9 +59,9 @@
                 </label>
             </div>
         </div>
-          <div class="signup-wraper">
-              <button class="signup-button">Submit</button>
-          </div>
+        <div id="signup-wraper">
+            <input class="signup-button" type="submit" value="Submit">
+        </div>
     </form>
 </div>
 
