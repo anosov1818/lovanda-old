@@ -65,7 +65,7 @@
     </form>
 </div>
 
-<div class="row">
+<div id="info" class="row">
 <div class="options col-lg-4 my-col">
     <h3>Manage Invoices Online</h3>
     <p id="firstp">Lorem ipsum dolor sit amet consectetur adipisicing elit.

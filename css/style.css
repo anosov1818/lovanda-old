@@ -126,11 +126,19 @@ br.clearfix {
 	cursor: pointer;
 }
 
+#info{
+	margin-top: 40px;
+}
+
 div .options{
 	/* float: left;
 	width: 30%;
 	margin: 1.66%;
 	display: inline-block; */
+}
+
+.options h3{
+	text-align: center;
 }
 
 #footer {
