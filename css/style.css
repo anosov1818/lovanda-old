@@ -117,7 +117,7 @@ br.clearfix {
 	transition: .3s;
 }
 
-#welcome button:hover{
+#welcome button:hover, .signup-button:hover{
 	cursor: pointer;
 }
 
