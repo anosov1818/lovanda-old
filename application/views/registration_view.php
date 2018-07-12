@@ -1,6 +1,6 @@
 <h1>Registration</h1>
 
-<div id="reg-div" class="container">
+<div id="reg-wrapper" class="container">
 
 
 

@@ -84,15 +84,12 @@ br.clearfix {
 
 
 #wrapper {
-	position: relative;
 	background: #fefefe;
 	margin: 15px auto;
-	padding: 0 200;
 	box-shadow: 10px 100px 150px 0px rgba(0,0,0,0.15);
 	border: solid 1px #f3f3f3;
 	border-top: 0;
 	border-radius: 10px;
-	display: flex;
 }
 
 #page {
@@ -104,12 +101,15 @@ br.clearfix {
 	text-align:center;
 }
 
+#reg-wrapper{
+	margin: 0 auto;
+}
+
 .signup-button{
 	padding: 10px 40px;
-	margin: 40px 0 40px;
 	background: #a72424; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #a72424,#D02C2A, #fd1d1d); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right,  #a72424,#D02C2A, #fd1d1d);
+  	background: -webkit-linear-gradient(to right, #a72424,#D02C2A, #fd1d1d); /* Chrome 10-25, Safari 5.1-6 */
+  	background: linear-gradient(to right,  #a72424,#D02C2A, #fd1d1d);
 	color: white;
 	border-radius: 50px;
 	border:none;
@@ -121,7 +121,7 @@ br.clearfix {
 	transition: .3s;
 }
 
-#welcome button:hover{
+#welcome button:hover, .signup-button:hover{
 	cursor: pointer;
 }
 
@@ -134,10 +134,6 @@ div .options{
 	width: 30%;
 	margin: 1.66%;
 	display: inline-block; */
-}
-
-.options h3{
-	text-align: center;
 }
 
 #footer {
