@@ -44,8 +44,7 @@ br.clearfix {
 }
 
 .main-form{
-	width:450px;
-	margin: auto;
+	margin: 200px;
 }
 
 #form{
@@ -89,7 +88,6 @@ br.clearfix {
 
 
 #wrapper {
-	width: 978px;
 	position: relative;
 	background: #fefefe;
 	margin: 15px auto;
@@ -164,7 +162,7 @@ div .options{
 }
 
 #reg-div {
-	margin: 0 auto;
+	margin: 40px auto;
 	background-color: purple;
 }
 
@@ -172,10 +170,10 @@ div .options{
 
 @media screen and (max-width: 400px){
 	#wrapper{
-			width:92%;
+			width:100%;
 	}
 
 	#form{
-		width:92%;
+		width:100%;
 	}
 }

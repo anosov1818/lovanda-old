@@ -4,10 +4,10 @@
     <button class="signup-button" id="signup-form-button"> Sign up </button>
 </div>
 
-<div id="form" class="row my-row">
-    <form action="<?php print HTTP; ?>registration" method="post" class="main-form needs-validation" novalidate>
+<div id="form" class=" container">
+    <form action="<?php print HTTP; ?>registration" method="post" class=" needs-validation" novalidate>
         <div class="row my-row">
-            <div class="col-md-6 col-sm-6 col-xs-12 my-col">
+            <div class="col-md-6 col-sm-12 col-xs-12 my-col">
                 <div class="form-group">
                     <label for="my-gender">I Am</label>
                     <select name="my-gender" class="form-control" placeholder="">
@@ -17,7 +17,7 @@
                     </select>
                 </div>
             </div>
-            <div class="col-md-6 col-sm-6 col-xs-12 my-col">
+            <div class="col-md-6 col-sm-12 col-xs-12 my-col">
                 <div class="form-group">
                     <label for="search-for-gender">Looking For</label>
                     <select name="search-for-gender" class="form-control"placeholder="">
