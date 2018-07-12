@@ -83,17 +83,14 @@ br.clearfix {
 }
 
 
-#wrapper {
+#page {
+	padding:50px;
 	background: #fefefe;
 	margin: 15px auto;
 	box-shadow: 10px 100px 150px 0px rgba(0,0,0,0.15);
 	border: solid 1px #f3f3f3;
 	border-top: 0;
 	border-radius: 10px;
-}
-
-#page {
-	padding:20px;
 }
 
 #welcome{
