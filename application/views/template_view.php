@@ -41,9 +41,9 @@
             </div>
         </nav>
 
-		<div id="wrapper" class="container">
-			<div id="page" class="row my-row">
-				<div id="content">
+		<!--<div id="wrapper" class="container">-->
+			<div id="page" class="container">
+				<div id="content" class="row my-row">
 					<div class="box">
 						<?php include 'application/views/' . $content_view; ?>
 					</div>
@@ -51,7 +51,7 @@
 				</div>
 				<br class="clearfix" />
 			</div>
-        </div>
+        <!--</div>-->
 		<div id="footer">
 			<a href="<?php print HTTP; ?>">Lovanda</a> &copy; 2018
 		</div>
