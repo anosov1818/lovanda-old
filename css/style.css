@@ -43,11 +43,6 @@ br.clearfix {
 	clear: both;
 }
 
-.main-form{
-	width:450px;
-	margin: auto;
-}
-
 #form{
 	display:none;
 	background-image: url("../images/lovandaBG.jpg");
@@ -89,7 +84,6 @@ br.clearfix {
 
 
 #wrapper {
-	width: 978px;
 	position: relative;
 	background: #fefefe;
 	margin: 15px auto;
@@ -166,16 +160,4 @@ div .options{
 #reg-div {
 	margin: 0 auto;
 	background-color: purple;
-}
-
-/* --------------M E D I A   Q U E R I E S------------------- */
-
-@media screen and (max-width: 400px){
-	#wrapper{
-			width:92%;
-	}
-
-	#form{
-		width:92%;
-	}
 }

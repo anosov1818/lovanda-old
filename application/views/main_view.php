@@ -4,8 +4,8 @@
     <button class="signup-button" id="signup-form-button"> Sign up </button>
 </div>
 
-<div id="form" class="row my-row">
-    <form action="<?php print HTTP; ?>registration" method="post" class="main-form needs-validation" novalidate>
+<div id="form" class="col-sm-12 col-md-8">
+    <form action="<?php print HTTP; ?>registration" method="post" class="needs-validation" novalidate>
         <div class="row my-row">
             <div class="col-md-6 col-sm-6 col-xs-12 my-col">
                 <div class="form-group">
@@ -63,6 +63,29 @@
             <input class="signup-button" type="submit" value="Submit">
         </div>
     </form>
+</div>
+
+<div class="container">
+    <div class="col-xs-6 col-xs-offset-3">
+        <form class="form-horizontal">
+            <div class="form-group">
+                <label for="nameField" class="col-xs-2">Name</label>
+                <div class="col-xs-10">
+                    <input type="text" class="form-control" id="nameField" placeholder="Your Name" />
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="emailField">Email</label>
+                <input type="text" class="form-control" id="emailField" placeholder="Your Email" />
+            </div>
+            <div class="form-group">
+                <label for="phoneField">Phone</label>
+                <input type="text" class="form-control" id="phoneField" placeholder="Your Phone Number" />
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+            <button type="reset" class="btn btn-default">Reset</button>
+        </form>
+    </div>
 </div>
 
 <div id="info" class="row">
