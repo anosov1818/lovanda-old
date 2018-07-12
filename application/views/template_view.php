@@ -44,9 +44,9 @@
 		<!--<div id="wrapper" class="container">-->
 			<div id="page" class="container">
 				<div id="content" class="row my-row">
-					<div class="box">
+					<!--<div class="box">-->
 						<?php include 'application/views/' . $content_view; ?>
-					</div>
+					<!--</div>-->
 					<br class="clearfix" />
 				</div>
 				<br class="clearfix" />
