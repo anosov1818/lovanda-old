@@ -4,7 +4,7 @@
     <button class="signup-button" id="signup-form-button"> Sign up </button>
 </div>
 
-<div id="form" class="col-sm-12 col-md-8">
+<div id="form" class="col-sm-12 col-md-8 p-4">
     <form action="<?php print HTTP; ?>registration" method="post" class="needs-validation" novalidate>
         <div class="row my-row">
             <div class="col-md-6 col-sm-12 col-xs-12 my-col">
