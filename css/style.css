@@ -43,10 +43,13 @@ br.clearfix {
 	clear: both;
 }
 
+<<<<<<< HEAD
 .main-form{
 	margin: 200px;
 }
 
+=======
+>>>>>>> c7ca2905f877e4db93d6121c37281c53892b6fe9
 #form{
 	display:none;
 	background-image: url("../images/lovandaBG.jpg");
@@ -165,6 +168,7 @@ div .options{
 	margin: 40px auto;
 	background-color: purple;
 }
+<<<<<<< HEAD
 
 /* --------------M E D I A   Q U E R I E S------------------- */
 
@@ -177,3 +181,5 @@ div .options{
 		width:100%;
 	}
 }
+=======
+>>>>>>> c7ca2905f877e4db93d6121c37281c53892b6fe9

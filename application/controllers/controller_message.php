@@ -4,7 +4,7 @@ class Controller_Message extends Controller {
 
 	function __construct() {
 		$this->model = new Model_Message();
-		$this->view = new View();
+        $this->view = new View();
 	}
 	
 	function action_index() {

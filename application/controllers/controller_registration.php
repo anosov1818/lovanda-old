@@ -1,6 +1,10 @@
 <?php
 
 class Controller_Registration extends Controller {
+    function __construct() {
+        $this->model = new Model_Registration();
+        $this->view = new View();
+    }
 	
 	function action_index() {
 
@@ -9,6 +13,8 @@ class Controller_Registration extends Controller {
         $data['lastname'] = $_POST['lastname'];
         $data['email'] = $_POST['email'];
         $data['password'] = $_POST['password'];
-		$this->view->generate('registration_view.php', 'template_view.php', $data);
+
+        $data = $this->model->get_data();
+        $this->view->generate('registration_view.php', 'template_view.php', $data);
 	}
 }
