@@ -8,13 +8,17 @@ class Controller_Registration extends Controller {
 	
 	function action_index() {
 
-        $data['my-gender'] = $_POST['my-gender'];
-        $data['search-for-gender'] = $_POST['search-for-gender'];
-        $data['lastname'] = $_POST['lastname'];
-        $data['email'] = $_POST['email'];
-        $data['password'] = $_POST['password'];
+        $data['spoken_languages'] = $this->model->get_data();
+        $data['my-gender'] = $this->clean_var($_POST['my-gender']);
+        $data['search-for-gender'] = $this->clean_var($_POST['search-for-gender']);
+        $data['lastname'] = $this->clean_var($_POST['lastname']);
+        $data['email'] = $this->clean_var($_POST['email']);
+        $data['password'] = $this->clean_var($_POST['password']);
 
-        $data = $this->model->get_data();
         $this->view->generate('registration_view.php', 'template_view.php', $data);
 	}
+
+	function action_registration() {
+        //TODO take vars from reg page
+    }
 }

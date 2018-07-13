@@ -15,4 +15,9 @@ class Controller {
 	{
 		// todo	
 	}
+	function clean_var($value){
+	    //TODO add the escape function!!!
+        //return mysql_real_escape_string(strip_tags(trim($value)), $link);
+        return strip_tags(trim($value));
+    }
 }
