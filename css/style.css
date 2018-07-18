@@ -103,6 +103,11 @@ br.clearfix {
 	margin: 0 auto;
 }
 
+#reg-wrapper h1{
+	text-align: center;
+	margin-bottom: 40px;
+}
+
 .signup-button{
 	padding: 10px 40px;
 	background: #a72424; /* fallback for old browsers */

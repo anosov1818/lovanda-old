@@ -1,8 +1,8 @@
-<h1>Registration</h1>
+
 
 <div id="reg-wrapper" class="container">
 
-
+<h1>Registration</h1>
 
 <div class="form-group row my-row">
     <label class="my-col col-lg-3" for="">Photo</label>
