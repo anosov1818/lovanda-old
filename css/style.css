@@ -155,3 +155,7 @@ div .options{
 	margin-top: 35px;
 	margin-left: 20px;
 }
+
+#reg-div .form-group:nth-type(odd){
+    background-color: red;
+}

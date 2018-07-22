@@ -59,6 +59,7 @@ class Route {
 			правильно было бы кинуть здесь исключение,
 			но для упрощения сразу сделаем редирект на страницу 404
 			*/
+			echo "controller does not exists"; die;
 			Route::ErrorPage404();
 		}
 		
@@ -71,6 +72,7 @@ class Route {
 			$controller->$action();
 		} else {
 			// здесь также разумнее было бы кинуть исключение
+            echo "action does not exists"; die;
 			Route::ErrorPage404();
 		}
 	}

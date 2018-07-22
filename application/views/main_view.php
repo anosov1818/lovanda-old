@@ -5,7 +5,7 @@
 </div>
 
 <div id="form" class="col-sm-12 col-md-8 p-5">
-    <form action="<?php print HTTP; ?>registration" method="post" class="needs-validation" novalidate>
+    <form action="<?php print HTTP; ?>registration" method="post" class="main-form needs-validation was-validated" novalidate>
         <div class="row my-row">
             <div class="col-lg-6 col-xs-12 my-col">
                 <div class="form-group">
@@ -30,8 +30,8 @@
         </div>
         <div class="form-group">
             <label for="Name">Your Name</label>
-            <input type="text" name="lastname" id="lastname" class="form-control">
-            <div class="invalid-feedback">Please enter your email.</div>
+            <input type="text" name="lastname" id="lastname" class="form-control" required>
+            <div class="invalid-feedback">Please enter your name.</div>
         </div>
         <div class="form-group">
             <label for="username">Email</label>
@@ -40,16 +40,16 @@
         </div>
         <div class="form-group">
             <label for="password">Password</label>
-            <input type="password" name="password" id="password" class="form-control">
+            <input type="password" name="password" id="password" class="form-control" required>
         </div>
         <div class="form-group">
             <label for="password">Confirm Password</label>
-            <input type="password" name="password" id="confirm-password" class="form-control">
+            <input type="password" name="password" id="confirm-password" class="form-control" required>
         </div>
         <div id="have-account"><a href="#">Have Account?</a></div>
         <div id="terms" class="form-group">
             <div class="form-check">
-                <input type="checkbox" id="accept-terms" class="form-check-input">
+                <input type="checkbox" id="accept-terms" class="form-check-input" required>
                 <label for="accept-terms" class="form-check-label">
                     By registering,
                     I confirm that I am 18 years old or older.
