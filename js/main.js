@@ -18,10 +18,17 @@ $( "#signup-form-button" ).on("click", function() {
 //   form.classList.add("was-validated");
 // })
 
-//slider
+//slider, dude I know this is a disaster, I need more time for this
 var profiles = [
-
+  ".profile1", ".profile2", ".profile3"
 ]
 
-var profiles = document.querySelectorAll(".profile1, .profile2, .profile3")
+var people = document.querySelectorAll(".profile1, .profile2, .profile3")
 var btn = document.querySelectorAll("button");
+var counter = 1;
+
+btn.addEventListener("click", function(){
+  while (count <= 3) {
+      count++;
+    }
+});
