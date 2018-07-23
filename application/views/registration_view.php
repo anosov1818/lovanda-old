@@ -1,7 +1,7 @@
 <h1>Complete registration</h1>
 
 <div id="reg-div" class="container">
-    <form action="<?php print HTTP; ?>registration/submit" method="post" class="needs-validation">
+    <form action="<?php print HTTP; ?>registration/submit" method="post" class="main-form needs-validation" novalidate>
         <div class="form-group row my-row">
             <label class="" for="">Photo</label>
             <input type="file" name="photo" class="form-control-file my-col col-lg-12" id="exampleFormControlFile1">

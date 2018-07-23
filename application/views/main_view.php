@@ -5,7 +5,7 @@
 </div>
 
 <div id="form" class="col-sm-12 col-md-8 p-5">
-    <form action="<?php print HTTP; ?>registration" method="post" class="main-form needs-validation was-validated" novalidate>
+    <form action="<?php print HTTP; ?>registration" method="post" class="main-form needs-validation" novalidate>
         <div class="row my-row">
             <div class="col-lg-6 col-xs-12 my-col">
                 <div class="form-group">
@@ -15,6 +15,7 @@
                         <option value="female">Woman</option>
                         <option value="wtf">Other</option>
                     </select>
+                    <div class="invalid-feedback">Please select your gender.</div>
                 </div>
             </div>
             <div class="col-lg-6 col-xs-12 my-col">
@@ -25,6 +26,8 @@
                         <option value="female">Woman</option>
                         <option value="wtf">Other</option>
                     </select>
+                    <div class="invalid-feedback">Please select gender.</div>
+
                 </div>
             </div>
         </div>
@@ -41,10 +44,12 @@
         <div class="form-group">
             <label for="password">Password</label>
             <input type="password" name="password" id="password" class="form-control" required>
+            <div class="invalid-feedback">Please enter your password.</div>
         </div>
         <div class="form-group">
             <label for="password">Confirm Password</label>
             <input type="password" name="password" id="confirm-password" class="form-control" required>
+            <div class="invalid-feedback">Please enter your password.</div>
         </div>
         <div id="have-account"><a href="#">Have Account?</a></div>
         <div id="terms" class="form-group">
