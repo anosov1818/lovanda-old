@@ -159,3 +159,10 @@ div .options{
 #reg-div .form-group:nth-type(odd){
     background-color: red;
 }
+
+#dating{
+	max-width: 600px;
+	max-height: 800px;
+	background-color: red;
+	
+}
