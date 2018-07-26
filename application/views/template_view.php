@@ -13,7 +13,7 @@
 	</head>
 	<body>
         <nav class="navbar navbar-expand-lg navbar-light">
-            <a class="navbar-brand" href="<?php print HTTP; ?>">Lovanda</a>
+            <a class="navbar-brand" href="<?php print HTTP; ?>"><img src="<?php print HTTP; ?>images/lovandaaa.svg" width="30" height="30">Lovanda</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>

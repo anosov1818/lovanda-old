@@ -43,13 +43,14 @@
         </div>
         <div class="form-group">
             <label for="password">Password</label>
-            <input type="password" name="password" id="password" class="form-control" required>
+            <input type="password" name="password" id="password" class="form-control" onkeyup='check();' required>
             <div class="invalid-feedback">Please enter your password.</div>
         </div>
         <div class="form-group">
             <label for="password">Confirm Password</label>
-            <input type="password" name="password" id="confirm-password" class="form-control" required>
-            <div class="invalid-feedback">Please enter your password.</div>
+            <input type="password" name="password" id="confirm-password" class="form-control"  onkeyup='check();' required>
+            <span id='message'></span>
+            <div class="invalid-feedback">Please confirm your password.</div>
         </div>
         <div id="have-account"><a href="#">Have Account?</a></div>
         <div id="terms" class="form-group">
@@ -62,6 +63,7 @@
                     <a href="#">user agreement</a> and
                     <a href="#">privacy policy</a>.
                 </label>
+
             </div>
         </div>
         <div id="signup-wraper">
