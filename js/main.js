@@ -10,7 +10,7 @@ $( "#signup-form-button" ).on("click", function() {
 //singup form validation
 var form = document.querySelector(".needs-validation");
 
-form.addEventListener("submit", funtction(event){
+form.addEventListener("submit", function(event){
   if(form.checkValidity() === false){
     event.preventDefault();
     event.stopPropagation();

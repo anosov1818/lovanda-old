@@ -18,14 +18,12 @@ a:hover {
 	text-decoration: none;
 }
 
-.navbar{
-		background: pink;
-}
-
 body {
 	line-height: 1.75em;
 	font-size: 11.5pt;
-	background-image: url("../images/lovandaBG.jpg");
+    background: #D576E8;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right bottom, #D576E8, white);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right bottom, #D576E8, white); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 body, input {
@@ -41,19 +39,23 @@ br.clearfix {
 	clear: both;
 }
 
-#form{
+.navbar {
+    background: #9761E8;
+}
+
+#form {
 	display:none;
-	background-image: url("../images/lovandaBG.jpg");
+	background-color: #D576E8;
 	padding-top: 40px;
 	margin: 0 auto;
 	border-radius: 5%;
 }
 
-.form-group{
+.form-group {
 	margin: 0 auto;
 }
 
-#signup-wraper{
+#signup-wraper {
 	text-align: center;
 }
 
@@ -83,7 +85,7 @@ br.clearfix {
 
 #page {
 	padding:50px;
-	background: #fefefe;
+	background: white;
 	margin: 15px auto;
 	box-shadow: 10px 100px 150px 0px rgba(0,0,0,0.15);
 	border: solid 1px #f3f3f3;
