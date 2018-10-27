@@ -75,7 +75,7 @@
 <div id="info" class="row">
 <div class="options col-lg-4 my-col">
     <h3>Free Dating Service</h3>
-    <p id="firstp">Only on our Website you can easily find a partner today and absolutely for free and without watching stupid advertisements! So do not hesitate to sign up now.
+    <p id="firstp">Only on our Website you can easily find a partner today absolutely for free without watching stupid advertisements! So do not hesitate to sign up now.
     </p>
 </div>
 
