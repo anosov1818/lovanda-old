@@ -11,8 +11,8 @@
                 <div class="form-group">
                     <label for="my-gender">I Am</label>
                     <select name="my-gender" class="form-control" placeholder="">
-                        <option value="male">Man</option>
-                        <option value="female">Woman</option>
+                        <option value="male">Woman</option>
+                        <option value="female">Man</option>
                         <option value="wtf">Other</option>
                     </select>
                     <div class="invalid-feedback">Please select your gender.</div>
