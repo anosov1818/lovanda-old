@@ -18,7 +18,7 @@ a:hover {
 	text-decoration: none;
 }
 
-button, button:active, input, input:active {
+button, button:active, input, input:active, select, select:active {
 	outline: none;
 }
 
@@ -142,10 +142,7 @@ br.clearfix {
 }
 
 div .options{
-	/* float: left;
-	width: 30%;
-	margin: 1.66%;
-	display: inline-block; */
+	text-align: center;
 }
 
 #footer {
