@@ -74,32 +74,20 @@
 
 <div id="info" class="row">
 <div class="options col-lg-4 my-col">
-    <h3>Manage Invoices Online</h3>
-    <p id="firstp">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        Eaque inventore saepe et eligendi reiciendis minima cumque
-        necessitatibus sapiente mollitia accusantium ipsum, nulla
-        repudiandae dolore voluptatibus cupiditate perspiciatis quae
-        debitis nemo.
+    <h3>Free Dating Service</h3>
+    <p id="firstp">Only on our Website you can easily find a partner today and absolutely for free and without watching stupid advertisements! So do not hesitate to sign up now.
     </p>
 </div>
 
 <div class="options col-lg-4 my-col">
-    <h3>Dashboards and Reports</h3>
-    <p id="secondp">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        Eaque inventore saepe et eligendi reiciendis minima cumque
-        necessitatibus sapiente mollitia accusantium ipsum, nulla
-        repudiandae dolore voluptatibus cupiditate perspiciatis quae
-         debitis nemo.
+    <h3>Only real people</h3>
+    <p id="secondp">Have you ever spend your time chatting with a beautiful blonde with blue eyes? And after a few days you realize with disappointment, that there was a completely different person behind the monitor? It will never happen on our website! Each profile is checked and approved.
     </p>
 </div>
 
 <div class="options col-lg-4 my-col">
-    <h3>Invite Share and Collaborate</h3>
-    <p id="thirdp">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        Eaque inventore saepe et eligendi reiciendis minima cumque
-        necessitatibus sapiente mollitia accusantium ipsum, nulla
-        repudiandae dolore voluptatibus cupiditate perspiciatis quae
-         debitis nemo.
+    <h3>Very fast and intellectual application</h3>
+    <p id="thirdp">We use only the latest and the fastest technologies of web developmend industry. Be absolutely sure in performance, 100% data security and perfect design.
     </p>
 </div>
 </div>

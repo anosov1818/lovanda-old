@@ -10,13 +10,8 @@ $( "#signup-form-button" ).on("click", function() {
 //singup form validation
 var form = document.querySelector(".needs-validation");
 
-<<<<<<< HEAD
 form.addEventListener("submit", function(event) {
   if(form.checkValidity() === false) {
-=======
-form.addEventListener("submit", function(event){
-  if(form.checkValidity() === false){
->>>>>>> aba2a80d1f861cc0b760fc5346d63cd82785377b
     event.preventDefault();
     event.stopPropagation();
   }
