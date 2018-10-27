@@ -120,6 +120,7 @@ br.clearfix {
 
 #signup-form-button:active {
 	outline: none;
+	margin-top: 1px;
 }
 
 #welcome button {
