@@ -108,7 +108,7 @@ br.clearfix {
 	margin-bottom: 40px;
 }
 
-.signup-button{
+.signup-button {
 	padding: 10px 40px;
 	background: #a72424; /* fallback for old browsers */
   	background: -webkit-linear-gradient(to right, #a72424,#D02C2A, #fd1d1d); /* Chrome 10-25, Safari 5.1-6 */
@@ -116,6 +116,10 @@ br.clearfix {
 	color: white;
 	border-radius: 50px;
 	border:none;
+}
+
+#signup-form-button:active {
+	outline: none;
 }
 
 #welcome button {
