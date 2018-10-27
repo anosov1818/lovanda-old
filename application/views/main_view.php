@@ -86,8 +86,8 @@
 </div>
 
 <div class="options col-lg-4 my-col">
-    <h3>Very fast and intellectual application</h3>
-    <p id="thirdp">We use only the latest and the fastest technologies of web developmend industry. Be absolutely sure in performance, 100% data security and perfect design.
+    <h3>Fast and intellectual app</h3>
+    <p id="thirdp">Meet only the latest and the fastest technologies of web developmend industry. Be absolutely sure in performance, 100% data security and perfect design.
     </p>
 </div>
 </div>
