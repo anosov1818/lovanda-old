@@ -52,18 +52,15 @@
             <span id='message'></span>
             <div class="invalid-feedback">Please confirm your password.</div>
         </div>
-        <div id="have-account"><a href="#">Have Account?</a></div>
+        <div id="have-account"><a href="<?php print HTTP; ?>login">Have Account?</a></div>
         <div id="terms" class="form-group">
             <div class="form-check">
-                <input type="checkbox" id="accept-terms" class="form-check-input" required>
-                <label for="accept-terms" class="form-check-label">
-                    By registering,
-                    I confirm that I am 18 years old or older.
-                    I accept the terms of the
-                    <a href="#">user agreement</a> and
-                    <a href="#">privacy policy</a>.
+                <label>
+                    <input type="checkbox" id="accept-terms" class="form-check-input" required>
+                    <span for="accept-terms" class="form-check-label label-text">
+                        By registering, I confirm that I am 18 years old or older. I accept the terms of the <a href="<?php print HTTP; ?>user-agreement">user agreement</a> and <a href="<?php print HTTP; ?>privacy-policy">privacy policy</a>.
+                    </span>
                 </label>
-
             </div>
         </div>
         <div id="signup-wraper">

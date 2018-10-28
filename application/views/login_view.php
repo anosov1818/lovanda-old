@@ -1,5 +1,4 @@
-<h1>Страница авторизации/Authorization</h1>
-
+<h1>Authorization</h1>
 <div id="authorization" class="row my-row">
 	<form action="" method="post">
 		<div class="form-group row">
