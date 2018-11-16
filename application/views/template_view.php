@@ -45,6 +45,7 @@
 			<div id="page" class="container">
 				<div id="content" class="row my-row">
 					<!--<div class="box">-->
+                        <?php if(isset($data)) extract($data);?>
 						<?php include 'application/views/' . $content_view; ?>
 					<!--</div>-->
 					<br class="clearfix" />

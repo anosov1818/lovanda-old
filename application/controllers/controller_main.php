@@ -3,7 +3,11 @@
 class Controller_Main extends Controller {
 
 	function action_index() {
-		$this->view->generate('main_view.php', 'template_view.php');
+	    session_start();
+
+	    $data['logged_in'] = isset($_SESSION['logged_in']) ? $_SESSION['logged_in'] : "" ;
+		$this->view->generate('main_view.php', 'template_view.php', $data);
+        unset($_SESSION['logged_in']);
 	}
 
 	function form_index() {
