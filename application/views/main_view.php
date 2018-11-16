@@ -1,6 +1,3 @@
-<?php //extract($data); ?>
-<?php if($logged_in) { ?>
-<?php } else { ?>
 <div id="welcome">
     <h1>Welcome to Lovanda</h1>
     <p>Lovanda is a revolutionary application to find a partner online for free</p>
@@ -12,10 +9,11 @@
         <div class="row my-row">
             <div class="col-lg-6 col-xs-12 my-col">
                 <div class="form-group">
+
                     <label for="my-gender">I Am</label>
                     <select name="my-gender" class="form-control" placeholder="">
-                        <option value="male">Woman</option>
-                        <option value="female">Man</option>
+                        <option value="male">Man</option>
+                        <option value="female">Woman</option>
                         <option value="wtf">Other</option>
                     </select>
                     <div class="invalid-feedback">Please select your gender.</div>
@@ -55,15 +53,18 @@
             <span id='message'></span>
             <div class="invalid-feedback">Please confirm your password.</div>
         </div>
-        <div id="have-account"><a href="<?php print HTTP; ?>login">Have Account?</a></div>
+        <div id="have-account"><a href="#">Have Account?</a></div>
         <div id="terms" class="form-group">
             <div class="form-check">
-                <label>
-                    <input type="checkbox" id="accept-terms" class="form-check-input" required>
-                    <span for="accept-terms" class="form-check-label label-text">
-                        By registering, I confirm that I am 18 years old or older. I accept the terms of the <a href="<?php print HTTP; ?>user-agreement">user agreement</a> and <a href="<?php print HTTP; ?>privacy-policy">privacy policy</a>.
-                    </span>
+                <input type="checkbox" id="accept-terms" class="form-check-input" required>
+                <label for="accept-terms" class="form-check-label">
+                    By registering,
+                    I confirm that I am 18 years old or older.
+                    I accept the terms of the
+                    <a href="#">user agreement</a> and
+                    <a href="#">privacy policy</a>.
                 </label>
+
             </div>
         </div>
         <div id="signup-wraper">
@@ -74,23 +75,61 @@
 
 <div id="info" class="row">
 <div class="options col-lg-4 my-col">
-    <h3>Free Dating Service</h3>
-    <p id="firstp">Only on our Website you can easily find a partner today absolutely for free without watching stupid advertisements! So do not hesitate to sign up now.
+    <h3>Manage Invoices Online</h3>
+    <p id="firstp">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Eaque inventore saepe et eligendi reiciendis minima cumque
+        necessitatibus sapiente mollitia accusantium ipsum, nulla
+        repudiandae dolore voluptatibus cupiditate perspiciatis quae
+        debitis nemo.
     </p>
 </div>
 
 <div class="options col-lg-4 my-col">
-    <h3>Only real people</h3>
-    <p id="secondp">Have you ever spend your time chatting with a beautiful blonde with blue eyes? And after a few days you realize with disappointment, that there was a completely different person behind the monitor? It will never happen on our website! Each profile is checked and approved.
+    <h3>Dashboards and Reports</h3>
+    <p id="secondp">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Eaque inventore saepe et eligendi reiciendis minima cumque
+        necessitatibus sapiente mollitia accusantium ipsum, nulla
+        repudiandae dolore voluptatibus cupiditate perspiciatis quae
+         debitis nemo.
     </p>
 </div>
 
 <div class="options col-lg-4 my-col">
-    <h3>Fast and intellectual app</h3>
-    <p id="thirdp">Meet only the latest and the fastest technologies of web developmend industry. Be absolutely sure in performance, 100% data security and perfect design.
+    <h3>Invite Share and Collaborate</h3>
+    <p id="thirdp">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Eaque inventore saepe et eligendi reiciendis minima cumque
+        necessitatibus sapiente mollitia accusantium ipsum, nulla
+        repudiandae dolore voluptatibus cupiditate perspiciatis quae
+         debitis nemo.
     </p>
 </div>
 </div>
-<?php } ?>
 
 <!-- cd C:\xampp\htdocs\lovanda -->
+<!-- js starts here  -->
+
+
+<script type="text/javascript">
+//singup form validation
+var form = document.querySelector(".needs-validation");
+
+form.addEventListener("submit", function(event) {
+  if(form.checkValidity() === false) {
+    event.preventDefault();
+    event.stopPropagation();
+  }
+  form.classList.add("was-validated");
+});
+
+//confirm password
+var check = function() {
+  if (document.getElementById('password').value ==
+    document.getElementById('confirm-password').value) {
+    document.getElementById('message').style.color = 'green';
+    document.getElementById('message').innerHTML = 'MATCHING';
+  } else {
+    document.getElementById('message').style.color = 'red';
+    document.getElementById('message').innerHTML = 'NOT MATCHING';
+  }
+};
+</script>
