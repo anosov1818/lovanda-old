@@ -5,13 +5,11 @@
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
 		<title>Lovanda | Dating Service</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="<?php print HTTP; ?>css/style.css" />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    	<link rel="stylesheet" type="text/css" href="<?php print HTTP; ?>css/style.css" />
 		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-
-		<script src="<?php print HTTP; ?>js/bootstrap.js"></script>
+		<link rel="stylesheet" type="text/css" href="<?php print HTTP; ?>css/materialize.css" />
+		<script src="<?php print HTTP; ?>js/materialize.min.js"></script>
 	</head>
 	<body>
         <!-- <nav class="navbar navbar-expand-lg navbar-dark">
