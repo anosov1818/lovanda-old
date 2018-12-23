@@ -19,12 +19,12 @@ class Controller_Registration extends Controller {
 	
 	function action_index() {
 
-        $this->data['spoken_languages'] = $this->model->get_data();
-        $this->data['my-gender'] = $this->clean_var($_POST['my-gender']);
-        $this->data['search-for-gender'] = $this->clean_var($_POST['search-for-gender']);
-        $this->data['lastname'] = $this->clean_var($_POST['lastname']);
-        $this->data['email'] = $this->clean_var($_POST['email']);
-        $this->data['password'] = $this->clean_var($_POST['password']);
+        $this->data['spoken_languages'] = isset($this->data['spoken_languages']) ? $this->model->get_data() : "";
+        $this->data['my-gender'] = isset($this->data['my-gender']) ?  $this->clean_var($_POST['my-gender']) : "";
+        $this->data['search-for-gender'] = isset($this->data['search-for-gender']) ? $this->clean_var($_POST['search-for-gender']) : "";
+        $this->data['lastname'] = isset($this->data['lastname']) ? $this->clean_var($_POST['lastname']) : "";
+        $this->data['email'] = isset($this->data['email']) ? $this->clean_var($_POST['email']) : "";
+        $this->data['password'] = isset($this->data{'password'}) ? $this->clean_var($_POST['password']) : "";
 
         $this->take_post_vars();
 

@@ -4,8 +4,6 @@
     <button class="btn signup-button" id="signup-form-button"> Sign up </button>
 </div>
 
-
-
 <div class="card">
     <div id="signup-form" class="card-action col s12 l5">
         	<form action="<?php print HTTP; ?>registration" method="post">

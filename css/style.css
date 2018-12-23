@@ -105,6 +105,10 @@ br.clearfix {
 	text-align: center;
 }
 
+#signup-form-button {
+	margin-top: 30px;
+}
+
 #terms{
 	text-align: center;
 }
