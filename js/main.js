@@ -4,7 +4,7 @@ $( "#signup-form-button" ).on("click", function() {
         opacity:0,
         margin:0
     });
-    $( "#form").fadeIn();
+    $( "#signup-form").fadeIn();
 });
 
 //
@@ -31,14 +31,24 @@ var check = function() {
   }
 };
 
-//slider, dude I know this is a disaster, I need more time for this
-/*var profiles =[];
+//Mobile responsive
+var instance = M.Sidenav.getInstance(elem);
 
-var people = document.querySelectorAll(".profile1, .profile2, .profile3")
-var btn = document.querySelectorAll("button");
-var counter = 1;
+document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.sidenav');
+    var instances = M.Sidenav.init(elems, options);
+  });
 
-btn.addEventListener("click", function(){
-  
-});
-*/
+  // Initialize collapsible (uncomment the lines below if you use the dropdown variation)
+  // var collapsibleElem = document.querySelector('.collapsible');
+  // var collapsibleInstance = M.Collapsible.init(collapsibleElem, options);
+
+  // Or with jQuery
+
+  $(document).ready(function(){
+    $('.sidenav').sidenav();
+  });
+
+  instance.open();
+  instance.close();
+  instance.destroy();
