@@ -77,6 +77,10 @@ body, input {
 	border:none;
 } */
 
+.sidenav-overlay {
+	z-index: 10 !important;
+}
+
 br.clearfix {
 	clear: both;
 }

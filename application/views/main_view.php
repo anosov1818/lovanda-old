@@ -13,7 +13,7 @@
         		<div class="input-field col s12 l6">
         		 	<i class="material-icons prefix">face</i>
     			    <select>
-    			      <option value="" disabled selected>Choose Your Gender</option>
+    			      <option value="" disabled selected>Gender</option>
     			      <option value="1">woman</option>
     			      <option value="2">man</option>
     			    </select>
@@ -22,7 +22,7 @@
     			 <div class="input-field col s12 l6">
         		 	<i class="material-icons prefix">search</i>
     			    <select>
-    			      <option value="" disabled selected>Who Are You Looking For?</option>
+    			      <option value="" disabled selected>Man or Woman</option>
     			      <option value="1">woman</option>
     			      <option value="2">man</option>
     			    </select>
